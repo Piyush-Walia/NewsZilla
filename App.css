@@ -1,0 +1,43 @@
+
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  margin: 0 8px;
+  border-radius: 50%;
+  animation: loading 1s ease-in-out infinite;
+}
+
+.dot-1 {
+  animation-delay: 0.2s;
+  background-color: #3498db;
+}
+
+.dot-2 {
+  animation-delay: 0.4s;
+  background-color: #e74c3c;
+}
+
+.dot-3 {
+  animation-delay: 0.6s;
+  background-color: #f1c40f;
+}
+
+@keyframes loading {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1, 2.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
