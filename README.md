@@ -41,13 +41,7 @@
 
 ##  Overview
 
-<code>❯ REPLACE-ME</code>
-
----
-
-##  Features
-
-<code>❯ REPLACE-ME</code>
+<code>❯ I developed a interactive news application using React.js and REST API that delivers daily global news. The app allows users to select and read news by category, ensuring they can easily find topics of interest. Additionally, each news story links directly to its original source for further reading. The application is designed to provide continuously updated news, refreshed every 24 hours, utilizing technologies such as JavaScript, HTML5, React, and JSON.</code>
 
 ---
 
